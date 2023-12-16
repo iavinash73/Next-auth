@@ -2,7 +2,7 @@
 
 ## Overview
 
-The project is a web application built with Next.js 14, featuring a robust set of authentication and user management functionalities. It enables users to register either through traditional email and password or via Google authentication. The application employs a MongoDB database to securely store user registration data. Server actions are used to implement api. Email verification and forgot password functionalities are also implemented using Resend and node mailer. It's a comprehensive application allowing user to register and login with ease. Error handling is implemented with Sonner for toast notifications. 
+A web application built with Next.js 14, featuring a robust set of authentication and user management functionalities. It enables users to register either through traditional email and password or via Google authentication. The application employs a MongoDB database to securely store user registration data. Server actions are used to implement api. Email verification and forgot password functionalities are also implemented using Resend and node mailer. It's a comprehensive application allowing user to register and login with ease. Error handling is implemented with Sonner for toast notifications. 
 
 ## Features
 
@@ -48,6 +48,26 @@ The project is a web application built with Next.js 14, featuring a robust set o
    ```bash
    git clone https://github.com/your-username/your-repo.git
 
+2. Install required packages:
+
+   ```bash
+   npm i
+   
+3. Get the .env variables necessary for the project:
+   
+   ```bash
+   MONGODB_URI=
+   NEXTAUTH_SECRET=
+   GOOGLE_ID=
+   GOOGLE_SECRET=
+   NEXTAUTH_URL= 
+   RESEND_API_KEY=
+
+4. Run the project in local:
+
+   ```bash
+   npm run dev
+   
 
 ## Deploy on Vercel
 

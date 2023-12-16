@@ -1,6 +1,4 @@
-# Project Title
-
-Nextjs 14 user auth
+# Nextjs 14 user auth
 
 ## Overview
 
